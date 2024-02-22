@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: blue;
+    border-radius: 6px;
+    column-gap: -8rem;
+
+    
+}
+
+.grid-items{
+    margin-left: 5rem;
+    min-width: 3rem;
+    width: 198px;
+    height: 300px;
+    margin: 1rem;
+    margin-bottom: 8rem;
+    margin-right: 6px;
+    transition: all 0.5s ease-in;
+    border-radius: 7px;
+    box-shadow: 10px 10px 15px #2f0000;
+    overflow: hidden;
+}
+
+.grid-items:hover{
+    transform: scale(1.1);
+    
+}
+
+.box{
+    width: 2rem;
+    height: 2rem;
+   border: 1px solid black;
+   border-radius: 20cm;
+   float: right;
+   background-color: orange;
+   position: absolute;
+   left: 1cm;
+   bottom: 8cm;
+
+
+}
+
+
+.p{
+    font-size: larger;
+}
